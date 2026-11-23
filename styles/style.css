@@ -1,0 +1,133 @@
+header {
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(35 39 42);
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#titulo {
+
+    display: flex;
+    
+}
+
+a { 
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+#titulo1 {
+
+    color: rgb(255, 255, 255);
+
+}
+
+#titulo2 {
+
+    color: rgb(24 119 242);
+}
+
+#navAzul {
+
+    color:  rgb(24 119 242);
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+#seccion1 {
+
+    color: rgb(255, 255, 255);
+    background-image: url(../assets/images/cabecera.jpg);
+    background-size: cover;
+    text-align: center;
+    
+}
+
+#seccion2 {
+
+    background-color: rgb(35 39 42);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+#seccion2 h4 {
+
+    color: rgb(255, 255, 255);
+}
+
+#seccion2 p {
+
+    color: lightgray;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#email {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#seccion2 a {
+
+        background-color: rgb(227 76 38);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1vw;
+
+}
+
+#seccion3 {
+
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+#seccion3 img {
+    
+    padding-top: 30px;
+    width: 80px;
+
+}
+
+#seccion3 p {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+footer {
+
+    background-color: rgb(24 119 242);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
